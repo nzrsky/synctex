@@ -3,10 +3,10 @@ Pod::Spec.new do |s|
   s.name         = 'SyncTeX'
   s.version      = '1.23'
   s.summary      = 'Synchronization for TeX'
-  s.homepage     = 'https://github.com/jlaurens/synctex'
+  s.homepage     = 'https://github.com/nzrsky/synctex'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
-  s.author       = { 'Jerome.Laurens' => 'jerome.laurens@u-bourgogne.fr' }
-  s.source       = { :git => 'https://github.com/jlaurens/synctex', :branch => '2020' }
+  s.author       = { 'Jerome.Laurens' => 'jerome.laurens@u-bourgogne.fr', 'Alexey Nazarov' => 'alexx.nazaroff@gmail.com' }
+  s.source       = { :git => 'https://github.com/nzrsky/synctex', :branch => '2020' }
   s.social_media_url = 'https://twitter.com/nzrsky'
   s.osx.deployment_target = '10.10'
   s.requires_arc = false
